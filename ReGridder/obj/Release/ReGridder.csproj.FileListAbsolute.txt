@@ -1,0 +1,11 @@
+C:\Users\simon\source\repos\ReGridder\ReGridder\bin\Release\ReGridder.exe.config
+C:\Users\simon\source\repos\ReGridder\ReGridder\bin\Release\ReGridder.exe
+C:\Users\simon\source\repos\ReGridder\ReGridder\bin\Release\ReGridder.pdb
+C:\Users\simon\source\repos\ReGridder\ReGridder\obj\Release\ReGridder.csproj.SuggestedBindingRedirects.cache
+C:\Users\simon\source\repos\ReGridder\ReGridder\obj\Release\ReGridder.Properties.Resources.resources
+C:\Users\simon\source\repos\ReGridder\ReGridder\obj\Release\ReGridder.csproj.GenerateResource.cache
+C:\Users\simon\source\repos\ReGridder\ReGridder\obj\Release\ReGridder.csproj.CoreCompileInputs.cache
+C:\Users\simon\source\repos\ReGridder\ReGridder\obj\Release\ReGridder.exe
+C:\Users\simon\source\repos\ReGridder\ReGridder\obj\Release\ReGridder.pdb
+C:\Users\simon\source\repos\ReGridder\ReGridder\obj\Release\ReGridder.csproj.AssemblyReference.cache
+C:\Users\simon\source\repos\ReGridder\ReGridder\obj\Release\ReGridder.frmBase.resources
