@@ -45,8 +45,8 @@
             this.btnRemovePadding = new System.Windows.Forms.Button();
             this.label5 = new System.Windows.Forms.Label();
             this.label6 = new System.Windows.Forms.Label();
-            this.groupBox1 = new System.Windows.Forms.GroupBox();
-            this.groupBox2 = new System.Windows.Forms.GroupBox();
+            this.grpBaseSettings = new System.Windows.Forms.GroupBox();
+            this.grpTargetSettings = new System.Windows.Forms.GroupBox();
             this.sfdImage = new System.Windows.Forms.SaveFileDialog();
             ((System.ComponentModel.ISupportInitialize)(this.picBaseImage)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.picResultImage)).BeginInit();
@@ -54,8 +54,8 @@
             ((System.ComponentModel.ISupportInitialize)(this.numTargetHeight)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.numBaseHeight)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.numBaseWidth)).BeginInit();
-            this.groupBox1.SuspendLayout();
-            this.groupBox2.SuspendLayout();
+            this.grpBaseSettings.SuspendLayout();
+            this.grpTargetSettings.SuspendLayout();
             this.SuspendLayout();
             // 
             // ofdImageSelect
@@ -281,31 +281,31 @@
             this.label6.TabIndex = 15;
             this.label6.Text = "Result";
             // 
-            // groupBox1
+            // grpBaseSettings
             // 
-            this.groupBox1.Controls.Add(this.numBaseHeight);
-            this.groupBox1.Controls.Add(this.numBaseWidth);
-            this.groupBox1.Controls.Add(this.label4);
-            this.groupBox1.Controls.Add(this.label3);
-            this.groupBox1.Location = new System.Drawing.Point(541, 53);
-            this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Size = new System.Drawing.Size(131, 131);
-            this.groupBox1.TabIndex = 16;
-            this.groupBox1.TabStop = false;
-            this.groupBox1.Text = "Base Cell Size";
+            this.grpBaseSettings.Controls.Add(this.numBaseHeight);
+            this.grpBaseSettings.Controls.Add(this.numBaseWidth);
+            this.grpBaseSettings.Controls.Add(this.label4);
+            this.grpBaseSettings.Controls.Add(this.label3);
+            this.grpBaseSettings.Location = new System.Drawing.Point(541, 53);
+            this.grpBaseSettings.Name = "grpBaseSettings";
+            this.grpBaseSettings.Size = new System.Drawing.Size(131, 131);
+            this.grpBaseSettings.TabIndex = 16;
+            this.grpBaseSettings.TabStop = false;
+            this.grpBaseSettings.Text = "Base Cell Size";
             // 
-            // groupBox2
+            // grpTargetSettings
             // 
-            this.groupBox2.Controls.Add(this.numTargetWidth);
-            this.groupBox2.Controls.Add(this.label1);
-            this.groupBox2.Controls.Add(this.numTargetHeight);
-            this.groupBox2.Controls.Add(this.label2);
-            this.groupBox2.Location = new System.Drawing.Point(700, 53);
-            this.groupBox2.Name = "groupBox2";
-            this.groupBox2.Size = new System.Drawing.Size(131, 131);
-            this.groupBox2.TabIndex = 17;
-            this.groupBox2.TabStop = false;
-            this.groupBox2.Text = "Target Cell Size";
+            this.grpTargetSettings.Controls.Add(this.numTargetWidth);
+            this.grpTargetSettings.Controls.Add(this.label1);
+            this.grpTargetSettings.Controls.Add(this.numTargetHeight);
+            this.grpTargetSettings.Controls.Add(this.label2);
+            this.grpTargetSettings.Location = new System.Drawing.Point(700, 53);
+            this.grpTargetSettings.Name = "grpTargetSettings";
+            this.grpTargetSettings.Size = new System.Drawing.Size(131, 131);
+            this.grpTargetSettings.TabIndex = 17;
+            this.grpTargetSettings.TabStop = false;
+            this.grpTargetSettings.Text = "Target Cell Size";
             // 
             // sfdImage
             // 
@@ -317,8 +317,8 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(881, 466);
-            this.Controls.Add(this.groupBox2);
-            this.Controls.Add(this.groupBox1);
+            this.Controls.Add(this.grpTargetSettings);
+            this.Controls.Add(this.grpBaseSettings);
             this.Controls.Add(this.label6);
             this.Controls.Add(this.label5);
             this.Controls.Add(this.btnRemovePadding);
@@ -339,10 +339,10 @@
             ((System.ComponentModel.ISupportInitialize)(this.numTargetHeight)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.numBaseHeight)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.numBaseWidth)).EndInit();
-            this.groupBox1.ResumeLayout(false);
-            this.groupBox1.PerformLayout();
-            this.groupBox2.ResumeLayout(false);
-            this.groupBox2.PerformLayout();
+            this.grpBaseSettings.ResumeLayout(false);
+            this.grpBaseSettings.PerformLayout();
+            this.grpTargetSettings.ResumeLayout(false);
+            this.grpTargetSettings.PerformLayout();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -367,8 +367,8 @@
         private System.Windows.Forms.Button btnRemovePadding;
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.Label label6;
-        private System.Windows.Forms.GroupBox groupBox1;
-        private System.Windows.Forms.GroupBox groupBox2;
+        private System.Windows.Forms.GroupBox grpBaseSettings;
+        private System.Windows.Forms.GroupBox grpTargetSettings;
         private System.Windows.Forms.SaveFileDialog sfdImage;
     }
 }
