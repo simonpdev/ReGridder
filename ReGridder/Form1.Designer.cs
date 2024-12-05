@@ -29,7 +29,6 @@
         private void InitializeComponent()
         {
             this.ofdImageSelect = new System.Windows.Forms.OpenFileDialog();
-            this.fbdSaveDirectory = new System.Windows.Forms.FolderBrowserDialog();
             this.picBaseImage = new System.Windows.Forms.PictureBox();
             this.picResultImage = new System.Windows.Forms.PictureBox();
             this.numTargetWidth = new System.Windows.Forms.NumericUpDown();
@@ -352,7 +351,6 @@
         #endregion
 
         private System.Windows.Forms.OpenFileDialog ofdImageSelect;
-        private System.Windows.Forms.FolderBrowserDialog fbdSaveDirectory;
         private System.Windows.Forms.PictureBox picBaseImage;
         private System.Windows.Forms.PictureBox picResultImage;
         private System.Windows.Forms.NumericUpDown numTargetWidth;
