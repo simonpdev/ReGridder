@@ -103,7 +103,7 @@
             0});
             this.numTargetWidth.Name = "numTargetWidth";
             this.numTargetWidth.Size = new System.Drawing.Size(90, 20);
-            this.numTargetWidth.TabIndex = 2;
+            this.numTargetWidth.TabIndex = 0;
             this.numTargetWidth.Value = new decimal(new int[] {
             16,
             0,
@@ -126,7 +126,7 @@
             0});
             this.numTargetHeight.Name = "numTargetHeight";
             this.numTargetHeight.Size = new System.Drawing.Size(90, 20);
-            this.numTargetHeight.TabIndex = 3;
+            this.numTargetHeight.TabIndex = 1;
             this.numTargetHeight.Value = new decimal(new int[] {
             16,
             0,
@@ -189,7 +189,7 @@
             0});
             this.numBaseHeight.Name = "numBaseHeight";
             this.numBaseHeight.Size = new System.Drawing.Size(90, 20);
-            this.numBaseHeight.TabIndex = 7;
+            this.numBaseHeight.TabIndex = 1;
             this.numBaseHeight.Value = new decimal(new int[] {
             16,
             0,
@@ -212,7 +212,7 @@
             0});
             this.numBaseWidth.Name = "numBaseWidth";
             this.numBaseWidth.Size = new System.Drawing.Size(90, 20);
-            this.numBaseWidth.TabIndex = 6;
+            this.numBaseWidth.TabIndex = 0;
             this.numBaseWidth.Value = new decimal(new int[] {
             16,
             0,
@@ -225,7 +225,7 @@
             this.btnRegrid.Margin = new System.Windows.Forms.Padding(2);
             this.btnRegrid.Name = "btnRegrid";
             this.btnRegrid.Size = new System.Drawing.Size(290, 43);
-            this.btnRegrid.TabIndex = 10;
+            this.btnRegrid.TabIndex = 3;
             this.btnRegrid.Text = "REGRID";
             this.btnRegrid.UseVisualStyleBackColor = true;
             this.btnRegrid.Click += new System.EventHandler(this.btnRegrid_Click);
@@ -236,7 +236,7 @@
             this.btnSelectImage.Margin = new System.Windows.Forms.Padding(2);
             this.btnSelectImage.Name = "btnSelectImage";
             this.btnSelectImage.Size = new System.Drawing.Size(290, 43);
-            this.btnSelectImage.TabIndex = 11;
+            this.btnSelectImage.TabIndex = 0;
             this.btnSelectImage.Text = "LOAD IMAGE";
             this.btnSelectImage.UseVisualStyleBackColor = true;
             this.btnSelectImage.Click += new System.EventHandler(this.btnSelectImage_Click);
@@ -247,7 +247,7 @@
             this.btnSaveImage.Margin = new System.Windows.Forms.Padding(2);
             this.btnSaveImage.Name = "btnSaveImage";
             this.btnSaveImage.Size = new System.Drawing.Size(290, 43);
-            this.btnSaveImage.TabIndex = 12;
+            this.btnSaveImage.TabIndex = 4;
             this.btnSaveImage.Text = "SAVE IMAGE";
             this.btnSaveImage.UseVisualStyleBackColor = true;
             this.btnSaveImage.Click += new System.EventHandler(this.btnSaveImage_Click);
@@ -258,7 +258,7 @@
             this.btnRemovePadding.Margin = new System.Windows.Forms.Padding(2);
             this.btnRemovePadding.Name = "btnRemovePadding";
             this.btnRemovePadding.Size = new System.Drawing.Size(290, 45);
-            this.btnRemovePadding.TabIndex = 13;
+            this.btnRemovePadding.TabIndex = 5;
             this.btnRemovePadding.Text = "REMOVE TOP + RIGHT PADDING \r\n(requires correct base cell size)\r\n";
             this.btnRemovePadding.UseVisualStyleBackColor = true;
             this.btnRemovePadding.Click += new System.EventHandler(this.btnRemovePadding_Click);
@@ -290,7 +290,7 @@
             this.grpBaseSettings.Location = new System.Drawing.Point(541, 53);
             this.grpBaseSettings.Name = "grpBaseSettings";
             this.grpBaseSettings.Size = new System.Drawing.Size(131, 131);
-            this.grpBaseSettings.TabIndex = 16;
+            this.grpBaseSettings.TabIndex = 1;
             this.grpBaseSettings.TabStop = false;
             this.grpBaseSettings.Text = "Base Cell Size";
             // 
@@ -303,7 +303,7 @@
             this.grpTargetSettings.Location = new System.Drawing.Point(700, 53);
             this.grpTargetSettings.Name = "grpTargetSettings";
             this.grpTargetSettings.Size = new System.Drawing.Size(131, 131);
-            this.grpTargetSettings.TabIndex = 17;
+            this.grpTargetSettings.TabIndex = 2;
             this.grpTargetSettings.TabStop = false;
             this.grpTargetSettings.Text = "Target Cell Size";
             // 
